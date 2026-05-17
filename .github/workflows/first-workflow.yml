@@ -3,9 +3,9 @@
     push:
         branches:
             -main
-jobs:
+ jobs:
     my job:
         runs-on: ubuntu-latest
         steps:
             -name: Print the word 
-            run: :echo "Print the word"
+            run: :echo "Print the word"a
