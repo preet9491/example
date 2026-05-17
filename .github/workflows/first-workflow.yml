@@ -1,14 +1,10 @@
-name: First GitHub Action
-
+name: First workflow1
 on:
-  push:
-    branches:
-      - main 
-
+    push:
+        branches: -main
 jobs:
-  demo-job:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Print Hello
-        run: echo "Hello from GitHub Actions"
+    my-job:
+        runs-on: ubuntu-latest
+        steps: 
+     -name: Print the word
+     run: echo "Print the word"
