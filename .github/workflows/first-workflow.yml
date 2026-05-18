@@ -1,14 +1,14 @@
-name: First GitHub Actionrrrr
+name: Pehli git action-23
 
 on:
   push:
     branches:
-      - main 
-
+      - main
 jobs:
-  demo-job:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Print Hello
-        run: echo "Hello from GitHubrrr Actions"
+  myjob:
+    name: its-first-job
+    runs-on: ubuntu-latest   
+    steps: 
+    - name: Print hello world
+      run: echo "Hello ,wassup"
+        
